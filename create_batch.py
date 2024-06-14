@@ -33,5 +33,5 @@ batch_details = client.batches.create(
 )
 
 with open(r"batch_ids.txt", "a") as file:
-    file.write("\n" + batch_input_file.id)
+    file.write("\n" + batch_details.id)
 print("Batch ID Saved")
