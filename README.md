@@ -24,3 +24,17 @@ Step #2: Periodically run `retrieve_batch.py` -> if the batch is done processing
 
 Step #3: View `output.jsonl` when the batch is complete to view the responses.
 
+## Viewing the GPT Response Messages
+
+Step #1: After successfully running `create_batch.py` and `retrieve_batch.py`, run `save_text_responses.py` -> this will extract the text from the GPT response JSON and save to a file, should make it easy to read the responses
+
+Step #2: View `gpt-responses.txt` to easily read the GPT-generated responses 
+
+## Installing Requirements 
+
+Step #1: Open terminal and change to directory **ChatGPT-Batching**
+ [If you need help.](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101)
+
+Step #2: Run: ```pip install -r requirements.txt```
+
+Step #3: The requirements should be installed, you're ready to use the scripts
